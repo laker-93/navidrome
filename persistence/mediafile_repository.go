@@ -30,6 +30,8 @@ func NewMediaFileRepository(ctx context.Context, db dbx.Builder) *mediaFileRepos
 		"id":      idFilter(r.tableName),
 		"title":   fullTextFilter,
 		"starred": booleanFilter,
+		"is_duplicate": booleanFilter,
+		"isduplicate": booleanFilter,
 	}
 	if conf.Server.PreferSortTags {
 		r.sortMappings = map[string]string{

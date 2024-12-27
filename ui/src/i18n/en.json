@@ -14,6 +14,7 @@
                 "album": "Album",
                 "path": "File path",
                 "genre": "Genre",
+                "isDuplicate": "Duplicate",
                 "compilation": "Compilation",
                 "year": "Year",
                 "size": "File size",
